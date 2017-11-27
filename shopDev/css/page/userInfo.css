@@ -1,0 +1,102 @@
+/***
+日期：2017/09/22
+作者：苏倩文
+说明：用户信息的CSS
+*/
+
+.wrap{
+	width:1018px;height:564px;
+	margin:0 auto;
+	background: #f5f5f5;
+}
+
+/* 左边导航 */
+.nav{
+	float:left;
+	width:110px; height:564px;
+}
+
+.nav h1{
+	display:block;
+	width:100%; height:30px;
+	font-size:14px; font-weight:bold ;
+	color:#333333;
+	margin:27px 0 0 24px ;
+}
+
+.nav li{
+	width:100%; height:24px;
+	margin:0 0 0 24px ;
+	line-height:24px;
+	font-size:14px;
+	text-align:left;
+	color:#777777;
+}
+
+/********** 右边，页面主体 ***********/
+.main{
+	width:849px; height:100%;
+	background:#fff;
+	float:left;margin-top: 15px;
+	padding:20px 20px 0 20px;
+}
+.mainInfo p{
+	float: left; 
+	font-size: 16px;
+	color: #999;
+	margin:4px 0 20px 20px;
+}
+
+.mainInfo .red{
+	color:#e4393c;font-weight: bold;
+	border-bottom: 2px solid #e4393c;
+}
+.u-info{
+	clear: both;
+	padding:0 0 0 40px;
+	font-size: 14px;
+}
+.u-info li label, .u-info li span,.u-info li a, .u-info li p,
+.u-info li input{
+	float: left; 
+	line-height: 54px;
+}
+.u-info li i{color: #e4393c;}
+.u-info li label{
+	text-align: right;
+	width: 84px;
+	color: #666;
+	clear: both;
+}
+.u-info li span{
+	text-align: left; color: #666;font-weight: bold;
+}
+.u-info li a{
+	padding-left: 28px;
+	color: #005ea7;
+	font-size: 13px;
+}
+.u-info li p{
+	padding-left: 4px;color: #666;
+}
+.u-info li .nickname,.u-info li .realname{
+	border:1px solid #ccc;
+	height:28px;
+	margin-top: 13px;
+	padding:10px;
+	font-weight: bold;
+}
+.u-info .sexLabel{
+	clear:both;
+}
+.u-info .BirDay{
+	outline: 0;
+	float: left;
+	width: 68px;height: 28px;
+	border:1px solid #ccc;
+	margin-top: 13px;
+}
+.u-info .BirP{float: left;margin:0 9px 0 9px;}
+.u-info span input .customFileInput{
+
+}

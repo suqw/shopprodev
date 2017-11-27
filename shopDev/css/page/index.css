@@ -1,0 +1,211 @@
+/*************
+ 日期：2017/09/25
+ 作者：苏倩文
+ 说明：首页
+ */
+body{
+	background-color: #f6f6f6;
+}
+
+/**中间主体部分**/
+.main{
+	width:1192px;height:480px;
+	margin:0px auto;
+}
+
+/*左侧*/
+.mainLeft{
+	float: left;
+	width: 190px; height: 444px;
+	background-color: #6e6568;
+	padding:18px 0;
+	position: relative;	
+}
+.mainLeft li:hover{
+	background: #A09A9C;
+}
+.mainLeft li p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 32px;
+	margin:0 0 0 14px;
+	cursor: pointer;
+}
+.mainLeft li .liPopup{
+	width: 200px;
+	/*height:200px;*/
+	border:1px solid #999;
+	background-color: #fff;
+	display: none;
+	position:absolute;
+	right:-201px;
+	margin-top: -32px;
+	z-index: 8;
+	opacity: 0.95;
+}
+.mainLeft li .liPopup li{
+	color: #000;
+	font-size: 14px;
+	padding:4px 0 4px 8px;
+}
+
+/*右侧*/
+.mainRight{
+	float: right;
+	width: 996px; height: 480px;
+	margin-left: 6px;
+	overflow: hidden;
+}
+
+/*轮播图*/
+.mainRight .wrap{
+	width: 100%; height: 340px;
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.mainRight .toLeftBtn,.mainRight .toRightBtn{
+	width:30px;height:60px;
+	margin: 140px 6px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position:10px 23px;
+	background-color: #333;
+	opacity: 0.2;
+	border-radius: 5%;
+}
+
+.mainRight .toLeftBtn{
+	float: left;
+	background-image: url("../../img/widget/toLeftBtn.png");
+}
+
+.mainRight .toRightBtn{
+	float: right;
+	background-image: url("../../img/widget/toRightBtn.png");
+}
+
+.mainRight .imgUl{
+	/*width: 4980px;*/height: 340px;	
+	position: absolute;
+	left:0;
+	z-index: -1;
+}
+.mainRight .imgUl li{
+	float: left;
+}
+.mainRight .imgUl img{
+	height:100%;
+}
+.mainRight .pointUl{
+	/*width:150px;*/height:16px;
+	padding:3px 4px;
+	position:absolute;
+	left:50%;bottom: 20px;
+	/*margin-left:-75px*/
+	z-index: 5;
+}
+.mainRight .pointUl li{
+	float: left;
+	width:14px;height:14px;
+	margin:0 7px 0 7px; 
+	border-radius: 100%;
+	background-color: #fff;
+	cursor: pointer;
+}
+.mainRight .pointUl li.red{
+	background-color: #f00;
+}
+.mainRight .pointBg{
+	/*width:150px;*/height:20px;
+	line-height: 30px;
+	position:absolute;
+	left:50%;bottom: 22px;
+	/*margin-left:-98px;*/
+	border-radius: 10px;
+	background-color: #fff;
+	opacity: 0.2;
+	z-index: 3;
+}
+
+/*轮播图下方两个广告*/
+.mainRight .ad1, .mainRight .ad2{
+	width: 492px; height: 130px;
+}
+
+/*底部-产品广告*/
+.productTitle{
+	width:1192px;height: 37px;
+	margin:0 auto;
+	background-image: url('../../img/widget/linePoint.png') ;
+	background-color: #F6F6F6;
+	background-position: center;
+	background-repeat: repeat-x;
+	text-align: center;
+	clear: both;
+}
+.productTitle label{
+	margin:0 auto;height: 37px;
+	display: inline-block;
+	background: #F6F6F6;
+	padding:0 54px;
+	line-height: 37px;
+	font-size: 20px;
+	color:#333;
+}
+.productDiv{
+	width:1202px;
+	margin:0 auto;
+}
+.productDiv ul{
+	float: left;
+	clear: both;
+}
+.productDiv li{
+	width:390px;
+	height: 164px;
+	float: left;
+	margin:0 5px 0 5px;
+	cursor: pointer;
+}
+.productDiv li.bg_1{
+	background: url('../../img/temp/productBg (1).png') no-repeat;
+}
+.productDiv li.bg_2{
+	background: url('../../img/temp/productBg (2).png') no-repeat;
+}
+.productDiv li.bg_3{
+	background: url('../../img/temp/productBg (3).png') no-repeat;
+}
+.productDiv li dl{
+	width:136px;height: 164px;
+	float: left;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.productDiv li dl.bg_1{
+	background: #D78E28;
+}
+.productDiv li dl.bg_2{
+	background: #498C94;
+}
+.productDiv li dl.bg_3{
+	background: #5C5566;
+}
+.productDiv li dl dt{
+	width:100px;height: 40px;
+	margin:0 auto;
+	margin-top: 25px;
+	margin-bottom: 5px;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	line-height: 40px;text-align: center;
+	color: #fff;font-size: 16px;
+}
+.productDiv li dl dd{
+	width:100px;
+	margin:0 auto;
+	line-height: 25px;
+	color: #fff;
+	font-size: 14px;
+}

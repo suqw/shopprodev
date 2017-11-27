@@ -1,0 +1,31 @@
+/***
+日期：2017/09/17
+作者：苏倩文
+说明：通用的全站公共样式
+*/
+
+.JDred{color:d21a1c;}
+.bold{font-weight: bold;}
+
+.fb{font-weight: bold;}
+
+.mt15{margin-top:15px;}
+.mr15{margin-right:15px;}
+
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px!important;}
+.mb30{margin-bottom: 30px;}
+
+.fl{float: left;}
+.fr{float: right;}
+.clr{clear: both;}
+
+.curPoint{cursor: pointer;}
+.h_after:after{
+	content: ".";
+	height: 0;
+	display: block;
+	overflow: hidden;
+	clear: both;
+	font-size: 0;
+}

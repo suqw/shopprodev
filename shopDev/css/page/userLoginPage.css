@@ -1,0 +1,174 @@
+/*
+日期：2017/09/17
+作者：苏倩文
+说明：用户登录页
+*/
+
+/* 网页头 */
+.header{
+	width:998px;height:80px;
+	margin:0 auto;
+	background: url("../../img/page/userHeaderImg.png") no-repeat left center;
+}
+
+/* 网页主体 */
+.wrap{
+	width:100%;height:475px;
+	margin:0 auto;
+	border-top: 1px solid #AB0616;
+	background: #a7271c;
+}
+
+/*背景图*/
+.bgLogin{
+	width:990px;height: 475px;
+	margin:0 auto;
+	background: url("../../img/temp/bgUserLogin.jpg") no-repeat left center;
+}
+
+/*登录框*/
+.loginMain{
+	width:346px;height:360px;
+	float: right;margin:40px 20px 0 0;
+	background: #fff;
+	position: relative;
+}
+
+.loginTitle{
+	width: 100%;height: 54px;
+	border-bottom: 1px solid #696969;
+	clear: both;
+}
+
+.loginTitle label, .loginTitle span{
+	float:left;
+	width:169px; height:54px;
+	text-align:center;
+	font-size: 18px;
+	line-height:54px;
+	cursor: pointer;
+}
+
+.loginTitle i{
+	float:left;
+	width:1px;height:18px;
+	margin-top:18px;
+	background: #5d5d5d;
+	/*border-left:1px solid #5d5d5d;*/
+}
+
+.enterDiv{
+	width: 304px;height:38px;
+	border :1px solid #959595;
+	margin: 0 auto;
+	position:relative;
+}
+
+.enterDiv label, .enterDiv input{
+	float: left;
+}
+
+.enterDiv label{
+	width:38px;height:38px;
+	border-right:1px solid #959595;
+	background-color: #ebebeb;
+	background-image: url("../../img/widget/icons.png");
+	background-repeat: no-repeat;
+}
+
+.enterDiv label.icon{
+	background-position: 11px 10px;
+}
+
+.enterDiv label.icon2{
+	background-position: 11px -38px;
+}
+
+.enterDiv input{
+	width:265px;height: 38px;
+	padding-left: 11px;
+	color:#666;
+	font-size: 14px; font-weight: normal;
+}
+
+.enterDiv i{
+	width: 13px;height: 13px;
+	background: url('../../img/widget/icons.png') no-repeat 0 -95px;
+	position: absolute; top: 12px; right: 6px;
+	cursor: pointer;
+}
+
+.loginCheck{
+	width:304px; height:16px;
+	margin:0 auto;
+	font-size: 14px;
+}
+
+.loginCheck input,.loginCheck label {
+	float: left;
+}
+
+.loginCheck input {margin:5px;}
+
+.loginCheck a {float: right;}
+.loginCheck a:link {color:#666;}
+.loginCheck a:hover{color:#8b0d0d; text-decoration: underline;}
+
+.loginBtn {
+	display: block;
+	width: 302px; height:34px;
+	margin:0 auto;
+	background: #d21a1c;
+	border: 1px solid #aa1314;
+	font-size: 20px;color: #fff;
+	letter-spacing: 26px;
+	text-indent: 26px;
+}
+
+.loginFooter{
+	position:absolute;left:0;bottom:0;
+	width: 100%; height:50px;
+	background: #fafafa;
+	border-top: 1px solid #ededed;
+	line-height:20px;
+}
+
+.loginFooter label, .loginFooter span{
+	float:left; font-size:14px; color:#000;
+	background-image: url('../../img/widget/icons.png');
+	background-repeat:no-repeat;
+	height:20px; 
+	padding-left:24px;
+	margin-top:16px;
+}
+
+.loginFooter label{
+	background-position:0 -143px;
+	margin-left: 21px;
+}
+
+.loginFooter span{
+	background-position:0 -176px;
+}
+
+.loginFooter i{
+	float:left;
+	width:1px; height:11px;
+	margin:20px 11px 0 14px;
+	border-left: 1px solid #bababa;
+}
+
+.loginFooter a{
+	float:right;
+	background: url('../../img/widget/icons.png') no-repeat 0 -208px;
+	margin:18px 21px 0 0;
+	padding-left:21px;
+	color:#8b0d0d;
+	font-size: 14px;
+}
+
+.loginFooter a:hover{
+	text-decoration: underline;
+}
+
+	

@@ -1,0 +1,156 @@
+/*************
+ 日期：2017/09/26
+ 作者：苏倩文
+ 说明：产品详情页css
+ */
+.wrap{
+	width:1180px;
+	margin:0 auto;
+	position: relative;
+}
+.allGoodsNumTop{
+	float: left; 
+	height:40px;
+	color:#e4393c;
+	border-bottom: 3px solid #e4393c;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 44px;
+	position:absolute;
+	top:-40px;left:0;
+}
+.allGoodsNumTop span{
+	margin-left: 8px;
+	font-weight: bold;
+}
+/*购物车表头*/
+
+.columnTitle{
+	width:1180px;height:51px;
+	margin-top:40px;
+	border:1px solid #e9e9e9;
+	background-color: #f3f3f3;	
+	z-index: -1;
+}
+.columnTitle ul{
+	position: absolute;
+}
+.columnTitle li{
+	float: left;
+	line-height: 52px;
+	font-size: 14px;
+	color: #666666;
+}
+.columnTitle .w1{width: 148px;padding-left: 14px;}
+.columnTitle .w2{width: 458px;text-align: left;}
+.columnTitle .w3{width: 156px;text-align: right;}
+.columnTitle .w4{width: 62px;padding-left: 82px;}
+.columnTitle .w5{width: 122px; text-align: right;}
+.columnTitle .w6{padding-left: 48px}
+
+/*商品列表*/
+.main{
+	width:1180px;
+	clear: both;
+}
+.carGoodsWrap{
+	width:1180px;height:167px;
+	border-top:2px solid #aaaaaa;
+	padding:13px 0 0 0 ;
+}
+.carGoods{
+	padding:20px 0 0 0;
+	width:1180px;height: 124px;
+	background-color: #fff4e8;
+	border:1px solid #f1f1f1;
+}
+/*.carGoods input .select{float: left;}*/
+.carGoods li{
+	font-size:14px ;
+	color:#333333;
+	float: left;
+}
+
+.carGoods .checkBox{
+	float: left; margin-right: 10px;
+}
+.carGoods .w1{width: 148px;padding-left: 14px;cursor: pointer;}
+.carGoods .w2{width: 250px;text-align: left;/*font-weight: bold;*/}
+.carGoods .w22{width: 208px;text-align: left;color:#666666;}
+.carGoods .w3{width: 156px;text-align: right;}
+.carGoods .w4{width: 97px;padding-left: 47px}
+.carGoods .w5{width: 122px; text-align: right;}
+.carGoods .w6{padding-left: 48px;color:#666666;cursor: pointer;}
+
+.carGoods .w1 img{
+	width:96px;height: 96px;
+	border:1px solid #eee;
+}
+
+.carGoods .w4 label,.carGoods .w4 span{
+	float:left;
+	width:20px; height: 24px;
+	border:1px solid #cacbcb;
+	background-color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+.carGoods .w4 label.grey{
+	color: #e9e9e9;
+}
+.carGoods .w4 input{
+	float: left;
+	width:53px; height: 26px;
+	border:1px solid #cacbcb;
+	text-align: center;
+}
+.carGoods .w4 p{
+	clear: both;
+	color:#aaa;
+	text-align: center;
+}
+
+/*购物车footer*/
+.carFooter{
+	width: 100%; height:60px;
+	border: 1px solid #f0f0f0;
+}
+
+.carFooter .selectAllBtn{
+	margin:24px 0 0 10px;
+}
+
+.carFooter p{
+	line-height: 60px;
+	font-size: 14px;
+	color: #666666;
+	margin-left: 10px;
+}
+.carFooter label{
+	float: right;
+	line-height: 60px;
+	font-size: 14px;
+	color: #666666;
+	margin-left: 10px;
+}
+.carFooter span{
+	font-size:22px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #e64346;
+	margin:4px 8px;
+}
+.carFooter .goToPayBtn{
+	float: right;
+	width: 115px;height:100%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #e64346;
+	text-align: center;
+}
+.carFooter i.bulb{
+	width:14px; height:20;
+	background: url(../../img/widget/bulb.png);
+	margin: 18px 20px 0 0;
+}

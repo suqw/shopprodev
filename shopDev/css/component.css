@@ -1,0 +1,229 @@
+/*==========   header   ========= */
+
+.topNavBg{
+	position: absolute;
+	margin-bottom: -29px;z-index: -1;
+	width:100%; height:29px;
+	background-color: #e3e4e5;
+	border-bottom: #ddd;
+}
+.headerBg{
+	position: absolute;
+	margin-bottom: -29px;z-index: -2;
+	width:100%; height:168px;
+	background-color: #f6f6f6;
+	border-bottom: #ddd;
+}
+
+#header{
+	width:1192px;height:170px;
+	margin:0px auto;
+}
+
+/*========京东LOGO=======*/
+
+#header .logo{
+	cursor: pointer;
+	float: left;
+	width:190px; height:170px;
+	background: url("../../img/logo.jpg") no-repeat;
+}
+
+/*=======顶部导航条======*/
+#header .topMenu{
+	float: right;
+	width:1002px; height:29px;
+	background-color: #e3e4e5;
+	border-bottom: #ddd;
+}	
+.nav{
+	font-size: 14px; color: #999;
+	line-height: 24px;
+	height:30px;
+	margin-bottom: 25px;
+}
+.nav .city{
+	position:absolute;
+	width:80px;height:24px;
+	background: url("../../img/widget/indexIcon.png") no-repeat 6px 6px;
+	padding: 0 0 0 20px;
+	cursor: pointer;
+}
+ .nav label {
+ 	cursor: pointer;
+ }
+.nav li, .nav a, .nav label {
+	float:left; margin-right:13px;
+}
+.nav li{
+	cursor: pointer;
+	border-left: 1px solid #ccc;
+	line-height: 13px;
+	padding:0 0 0 9px;
+	margin-top: 7px;
+}
+.nav a{
+	color: #f10215;
+	margin-left:-4px;
+	cursor: pointer;
+}
+.nav .dropdownIcon{
+	display: block;float: right;
+	width:10px; height:5px;
+	background: url("../../img/widget/indexIcon.png") no-repeat 0 -25px;
+	margin: 6px 0 0 4px;
+}
+
+/*顶部搜索框*/
+.seachBox{
+	float: left;
+	width:550px; height:34px;
+	background-color: #fff;
+	border:1px solid #f10215;
+	margin-left: 12%;
+}
+.seachBox input{
+	float: left;
+	width:85%;
+	line-height: 34px;
+	padding-left: 8px;
+	color: #999;
+}
+.seachBox .btn{
+	float: right;
+	width:50px; height:35px;
+	background-color: #f10215;
+	background-image: url("../../img/widget/indexIcon.png");
+	background-repeat: no-repeat;
+	background-position: 16 -32px;
+	cursor: pointer;
+}
+.shopCarNum{
+	cursor: pointer;
+}
+.shopCarNum p{
+	float: left;margin-left: 31px;
+	width: 114px; height: 34px;
+	border:1px solid #e3e4e5;
+	background-color: #fff;
+	background-image: url("../../img/widget/indexIcon.png");
+	background-repeat:no-repeat;
+	background-position: 53px -72px;
+	color:#f10214;
+	font-size: 14px;
+	padding-left: 76px;
+	line-height: 32px;
+}
+.shopCarNum i{
+	float: left;
+	background-color: #f10215;
+	color:#fff;
+	border-radius: 100%;
+	width: 16px;height:16px;
+	line-height: 16px;text-align: center;
+	font-size: 12px;
+	margin:6px 0 0 -43px;
+}
+
+/*栏目菜单*/
+.columnMenu{
+	clear: both;
+	float: left;
+	line-height: 24px;
+	margin-left: 24px;
+	position: relative;
+}
+.columnMenu li{
+	font-size: 16px; color: #666;font-weight: bold;
+	float: left;
+	cursor: pointer;
+	line-height: 24px;
+	margin:50px 15px 0 15px;
+	/*margin-top: 50px;*/
+}
+.columnMenu i{
+	float: left;
+	height: 14px;
+	border-left: 1px solid #ccc;
+	margin:0 6px 0 6px;
+	margin-top: 55px;
+}
+.columnMenu span{
+	width:30px ;height: 18px;
+	/*float: left;
+	margin:40px -16px 0 -16px ;*/
+	background: url("../../img/temp/temp1.jpg");
+	position: absolute;
+	left:420px;top:40px;
+}
+
+/*==========   footer  ========= */
+.footerBg{
+	width:100%;
+	background-color: #eaeaea;
+	float: left;
+	clear: both;
+	margin-top:10px;
+	position: relative;
+}
+.cutoff1{
+	position: absolute;
+	top:100px;
+	width:100%;
+	border-bottom: 1px solid #dedede;
+}
+.cutoff2{
+	position: absolute;
+	top:150px;
+	width:100%;
+	border-bottom: 1px solid #dedede;
+}
+.footerMain{
+	width:1192px;
+	height:100px;
+	margin:0px auto;
+}
+.footerMain li{
+	width:210px;
+	float: left;
+	padding:40px;	
+}
+.footerMain label{
+	width:30px;height:30px;
+	font-size: 25px;
+	color:#e01121;
+	border: 2px solid #e01121;
+	border-radius: 2px;
+	padding:2px 5px;
+	margin:10px;
+}
+.footerMain span{
+	font-weight: bold;
+	color: #444;
+}
+.footerSub{
+	width:580px;
+	height:50px;
+	margin:0px auto;
+}
+.footerSub .nav{
+	border: 0px;
+	clear: both;
+}
+.footerSub .nav span{
+	float: left;
+	cursor: pointer;
+}
+.footerSub .nav i{
+	float: left;
+	height: 14px;
+	border-left: 1px solid #ccc;
+	margin:7px 15px;
+
+}
+.copyright{
+	padding:10px;
+	height:100px;
+	color:#999;
+	text-align: center;
+}

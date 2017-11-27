@@ -1,0 +1,31 @@
+/*************
+ 日期：2017/09/19
+ 作者：苏倩文
+ 说明：全局css样式重置
+*/
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+del, em, img, ins,
+strong, sub, sup, var,
+b, i, input,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label,
+table, tbody, tfoot, thead, tr, th, td,
+h1,h2,h3,h4,h5,h6,em,i{
+    font-weight: 100;
+    font-style: normal; outline: 0;
+    margin:0;padding:0; border:0; font-family: '微软雅黑','宋体';
+}
+
+ul,ol,li {
+	list-style: none;
+}
+a {
+    color: #666;
+    text-decoration: none;
+    outline: 0;
+}
+a:hover {
+    text-decoration: none
+}
+

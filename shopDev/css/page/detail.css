@@ -1,0 +1,292 @@
+/*************
+ 日期：2017/1020
+ 作者：苏倩文
+ 说明：产品详情
+ */
+
+/*body{
+	background-color: #f6f6f6;
+}*/
+.w1192{
+	width:1192px;margin:0 auto;
+}
+/*======头部浅灰色背景部分=======*/
+
+
+/*======中间主体部分=========*/
+/*灰色菜单栏*/
+.navbg{
+	width:100%;
+	background-color: #e3e4e5;
+	border-top: 2px solid #f10215;
+	margin-top: -2px;
+}
+.nav1{
+	font-size: 14px; color: #999;
+	line-height: 24px;
+	height: 42px;
+}
+.nav1 li{
+	float:left; margin-right:13px;
+	border-left: 0px solid #ccc;
+	line-height: 24px;
+	cursor: pointer;
+	padding:0 0 0 9px;
+	margin-top: 7px;
+}
+
+.nav1 span{
+	float: left;
+	display: block;
+	width:5px; height:10px;
+	background: url("../../img/widget/toRightIcon.png");
+	margin: 16px 3px 0 3px;
+}
+
+/*主体左侧产品图*/
+.mainLeft{
+	clear:left;
+	width:500px;height: 605px;
+	float: left;
+	position: relative;
+}
+
+.bigImg{
+	width:498px;height: 498px;
+	border:1px solid #e3e4e5;
+	margin-top: 10px;
+	position: relative;
+	background: url("../../img/detail/imgLoading.jpg") no-repeat;
+} 
+.bigImg .magnifier-s{
+	width: 200px;height: 200px;
+	background-color: #333;
+	opacity: 0.3;
+	position: absolute;
+	/*left: 0;top: 0;*/
+	display: none;
+}
+.bigImg .magnifier-b{
+	width: 580px;height: 580px;
+	border: 1px solid #e3e4e5;
+	position: absolute;
+	top: -1px;right: -582px;
+	z-index: 9;
+	display: none;
+	overflow: hidden;
+}
+.bigImg .magnifier-b img{
+	width: 1450px;height: 1450px;
+	/*border: 1px solid #999;*/
+	position: relative;
+	top: 0;left:0;
+	/*z-index: 9;*/
+}
+.bigImg img{
+	width:498px;height: 498px;
+	/*background-size: 100%;*/
+}
+.bigImg i{
+	width: 33px;height: 33px;
+	position: absolute;
+	right: 0px;bottom: 0px;z-index: 5;
+	background: url("../../img/widget/magnifierIcon.jpg");
+	cursor: pointer;
+}
+.mainLeft .toLeftBtn{
+	width: 23px;height: 35px;
+	position: absolute;
+	left: 0;top:0;
+	cursor: pointer;
+	background-image: url("../../img/widget/proSliderBtn.jpg");
+	background-position:0px 0px;
+	margin-top: 547px;
+	margin-right: 15px;
+}
+.mainLeft .toRightBtn{
+	width: 23px;height: 35px;
+	position: absolute;
+	left: 477px;top:0;
+	cursor: pointer;
+	background-image: url("../../img/widget/proSliderBtn.jpg");
+	background-position:0px -84px;
+	margin-top: 547px;
+}
+.smallImgWrap{
+	width: 450px;height:70px;
+	margin: 20px auto;
+	overflow: hidden;
+	position: relative;
+}
+.smallImgWrap ul{
+	position: absolute;left: 0;
+}
+
+.smallImgWrap ul li{
+	float: left;
+	width:60px;height: 60px;
+	border:2px solid #e3e4e5;
+	/*border-style: none;*/
+	line-height: 70px;
+	margin:0 12px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.smallImgWrap ul li.red{
+	border:2px solid #df3033;
+}
+.smallImgWrap ul li img{
+	width:60px;height: 60px;
+}
+
+ /*主体右侧信息及地址 */
+.mainRight{
+	width: 648px;
+	height: 605px;
+	float: left;
+	padding:22px;
+}
+.mainRight h1.title{
+	display: block;
+	height:60px;
+	overflow: hidden;
+	color: #666;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.mainRight h2.subTitle{
+	display: block;
+	height:60px;
+	overflow: hidden;
+	color: #e4393c;
+	font-size: 14px;
+	line-height: 24px;
+	/*padding-left: 4px;*/
+	margin-bottom: 10px;
+}
+
+.mainRight span{
+	float: left;
+	color: #999;
+	font-size: 14px;
+	line-height: 24px;
+}
+/*地址栏*/
+.mainRight .addBox{
+	width:400px;
+	float: left; 
+	margin-left: 6px;
+	width:  340px;height: 220px;
+	/*border:  1px solid #ccc;*/
+	margin-bottom: 20px;
+}
+
+.addBox .addTop{
+	float: left;
+	height: 26px;width: 200px;
+	background-color:#fff;
+	border: 1px solid #ccc;
+	border-bottom: 0px;
+	margin-bottom: -1px;
+}
+.addBox .addBottom{
+	height: 200px;
+	background:#fff;
+	border: 1px solid #ccc;
+}
+.addTop .dropdownIcon{
+	display: block;float: left;
+	width:14px; height:8px;
+	background: url("../../img/widget/upIcon.jpg");
+	margin: 10px 0 0 8px;
+}
+.addBottom .dropdownIcon{
+	display: block;float: right;
+	width:14px; height:8px;
+	background: url("../../img/widget/upIcon.jpg");
+	margin: 40px 14px 0 0;
+}
+.addBox div,.addBox ul{
+	clear: both;display: block;
+}
+.addBox p{
+	float: left;
+	font-size: 14px;
+	color: #666;
+	line-height: 24px;
+	margin: 0 0 0 14px;
+}
+.addBox span{	
+	float: left;
+	font-weight: bold;
+	color: #666;
+	font-size: 15px;
+	margin: 24px 0 12px 12px;
+}
+.addBox .labelDiv{
+	margin:12px;
+	height:24px;
+	border-bottom: 2px solid #edd28b;
+}
+.addBox label{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;line-height: 24px;
+	color: #007ec0;
+	padding:0 12px;
+	margin: 0 10px 0 0px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+.addBox label.on{
+	border: 2px solid #edd28b;
+	border-bottom: 0px;
+}
+.addBottom p{
+	width:90px;
+}
+
+
+/*加入购物车*/
+.mainRight .carNum{
+	float: left;clear: left;
+	margin-left: 76px;
+	width: 56px;height:49px;
+	/*border: 1px solid #ccc;*/
+	position: relative;
+}
+.mainRight .carNum input{
+	float: left;
+	width: 39px;height:49px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.mainRight .carNum .plus,.mainRight .carNum .minus{
+	width: 16px;height: 23px;
+	border: 1px solid #ccc;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+}
+.mainRight .carNum .plus{
+	position: absolute;
+	right:0px;
+	top: 0px;
+}
+.mainRight .carNum .minus{
+	position: absolute;
+	right:0px;
+	bottom: 0px;
+}
+.mainRight .addToCar{
+	float: left;
+	margin-left: 10px;
+	width: 160px;height: 48px;
+	background-color: #df3033;
+	color:#fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
